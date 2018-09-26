@@ -37,4 +37,4 @@ jdbc:
   userName: root
   url: jdbc:mysql://127.0.0.1:3306/20170406?characterEncoding=utf8&serverTimezone=UTC
 
-env:env
+env : env
