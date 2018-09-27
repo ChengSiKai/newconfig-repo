@@ -5,6 +5,11 @@ spring:
         enabled: true
   application:
     name: eos-admin-server
+  rabbitmq:
+    host: 192.168.0.201
+    port: 5672
+    username: root
+    password: root
   datasource:
     password: ${jdbc.password}
     type: com.alibaba.druid.pool.DruidDataSource
