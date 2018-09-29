@@ -38,7 +38,7 @@ mybatis:
   mapper-locations: classpath:/mapper/*Mapper.xml
   type-aliases-package: com.duohao.wallet.eosadminserver.model
 jdbc:
-  password: 123456
+  password: root
   userName: root
   url: jdbc:mysql://127.0.0.1:3306/20170406?characterEncoding=utf8&serverTimezone=UTC
 
